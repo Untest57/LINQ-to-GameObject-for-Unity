@@ -8,7 +8,7 @@ Axis
 ---
 The concept of LINQ to GameObject is axis on tree.
 
-![](Images/axis.jpg)
+![](Packages/LINQtoGameObject/Images~/axis.jpg)
 
 Every traverse method returns `IEnumerable<GameObject>` and deferred exectuion. For example
 
@@ -38,16 +38,24 @@ var fooScripts = root.ChildrenAndSelf().OfComponent<FooScript>();
 
 > Note: LINQ to GameObject is optimized for iteration, returns struct enumerable and struct enumerator instead of `IEnumerable<GameObject>`. More details, see the [Peformance Tips](https://github.com/neuecc/LINQ-to-GameObject-for-Unity#performance-tips) section.
 
-How to use
+How to install
 ---
+### Asset Store
 Import LINQ to GameObject from Unity Asset Store - [http://u3d.as/content/neuecc/linq-to-game-object](http://u3d.as/content/neuecc/linq-to-game-object).
 
+### UPM
+```
+https://github.com/Untest57/LINQ-to-GameObject-for-Unity.git?path=/Packages/LINQtoGameObject
+```
+
+How to use
+--- 
 All methods are extension of GameObject, using `Unity.Linq` then you can use all extension methods.
 
 ```csharp
 using Unity.Linq;
 ```
-![](Images/using.jpg)
+![](Packages/LINQtoGameObject/Images~/using.jpg)
 
 Operate
 ---

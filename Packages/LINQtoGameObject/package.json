@@ -1,0 +1,24 @@
+﻿{
+  "name": "cc.neue.linqtogameobject",
+  "displayName": "Linq to Gameobject",
+  "version": "2.3.1",
+  "dependencies": {
+    "com.unity.ugui": "1.0.0",
+    "com.unity.test-framework": "1.0.0"
+  },
+  "author": {
+    "name": "Yoshifumi Kawai(a.k.a. neuecc)",
+    "url": "https://neue.cc/"
+  },
+  "license": "MIT",
+  "licenseUrl": "https://raw.githubusercontent.com/neuecc/LINQ-to-GameObject-for-Unity/master/LICENSE",
+  "samples": [
+    {
+      "displayName": "SampleScene",
+      "description": "Keep SampleScene",
+      "path": "Samples~/SampleScene"
+    }
+  ],
+  "changelogUrl": "https://github.com/neuecc/LINQ-to-GameObject-for-Unity/releases",
+  "documentationUrl": "https://github.com/neuecc/LINQ-to-GameObject-for-Unity"
+}
