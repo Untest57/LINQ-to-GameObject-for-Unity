@@ -8,7 +8,7 @@ Axis
 ---
 The concept of LINQ to GameObject is axis on tree.
 
-![](Images/axis.jpg)
+![](Images~/axis.jpg)
 
 Every traverse method returns `IEnumerable<GameObject>` and deferred exectuion. For example
 
@@ -47,7 +47,7 @@ All methods are extension of GameObject, using `Unity.Linq` then you can use all
 ```csharp
 using Unity.Linq;
 ```
-![](Images/using.jpg)
+![](Images~/using.jpg)
 
 Operate
 ---
